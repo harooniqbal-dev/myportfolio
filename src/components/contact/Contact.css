@@ -1,0 +1,41 @@
+.contact__outerdiv{
+  padding: 50px 100px;
+}
+.contact__div {
+  display: flex;
+}
+.Contact__info {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 10px 15px 10px 0;
+}
+.getintouch__heading{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.getintouch__text{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .contact__outerdiv{
+    padding: 50px 30px;
+  }
+}
+@media (max-width: 700px) {
+  .contact__outerdiv {
+    padding: 50px 20px;
+  }
+  .contact__div{
+    flex-direction: column;
+  }
+  .Contact__info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+  }
+}

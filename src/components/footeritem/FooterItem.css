@@ -1,0 +1,17 @@
+.footeritem{
+    display: block;
+    padding: 10px 20px;
+    background: rgb(197, 25, 60);
+    color: #fff;
+    margin: 10px 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+}
+.footeritem.firstelement{
+    margin-top: 30px;
+}
+.footeritem:hover{
+    background: rgb(182, 31, 61);
+}

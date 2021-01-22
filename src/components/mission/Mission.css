@@ -1,0 +1,25 @@
+.mission__button {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border: none;
+  background: crimson;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s ease;
+}
+.mission__button:hover{
+    background: rgb(182, 31, 61);
+}
+.mission__text {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+.heading{
+  margin-bottom: 10px;
+  display: block;
+}

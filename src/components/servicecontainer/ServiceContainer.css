@@ -1,0 +1,83 @@
+.ServiceBanner{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* align-items:center; */
+    /* justify-content: flex-end; */
+    color: #fff;
+    padding:120px 80px;
+}
+.ServiceBanner__heading{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.ServiceBanner::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    transform-origin: left bottom;
+    transform: skewY(8deg);
+    z-index: 1;
+    /* clip-path: polygon(100% 0,0 100%,100% 100%); */
+    /* border: none; */
+
+}
+.servicecontainer__detail{
+    padding: 0 80px;
+}
+.servicecontainer__inner{
+    display: flex;
+    margin-top: 1rem;
+}
+.servicecontainer__description{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 2rem;
+}
+.servicecontainer__description p{
+  text-align: justify;
+}
+.servicecontainer__Image{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.servicecontainer__Image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    .servicecontainer__detail{
+        padding:0 50px;
+    }
+  }
+
+  @media (max-width: 685px) {
+    .servicecontainer__detail{
+        padding:0px 40px;
+    }
+    .servicecontainer__inner{
+        flex-direction: column-reverse;
+    }
+    .servicecontainer__Image{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .servicecontainer__description{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding:1rem 0.5rem;
+    }
+  }
+  
