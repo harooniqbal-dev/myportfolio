@@ -31,6 +31,7 @@ const ServiceContainer = () => {
     setService(data);
   }, [myservice]);
   return (
+
     <div className="servicecontainer">
       <ServiceBanner title={service.service} />
       <div className="servicecontainer__detail">
@@ -38,6 +39,14 @@ const ServiceContainer = () => {
         <div className="servicecontainer__inner">
           <div className="servicecontainer__description">
             <p>{service.longdescription}</p>
+            {service.descriptionpoint && (
+              <div style={{paddingLeft:'20px',paddingTop:'10px'}}>
+                {service?.descriptionpoint.map((item, index) => {
+                  return <p style={{marginBottom:'5px'}} key={`point${index}`}>{index+1}. {item}</p>;
+                })}
+              </div>
+            )}
+            {/* {service.descriptionpoint &&(<p>{service.descriptionpoint[0]}</p>)} */}
           </div>
           <div className="servicecontainer__Image">
             <img src={service.imageurl} />

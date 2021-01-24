@@ -2,6 +2,7 @@ import React from "react";
 import ContactInfo from "../contactinfo/ContactInfo";
 import FooterItem from "../footeritem/FooterItem";
 import SocialLink from "../sociallink/SocialLink";
+import { services } from "../../utils";
 import "./Footer.css";
 
 export const Heading = ({ title, myclass }) => {
@@ -31,16 +32,15 @@ const Footer = () => {
       </div>
       <div className="footer__div">
         <Heading title="Services" myclass="footer__heading" />
-        <FooterItem
-          title="Web Development"
-          firstelement="smothing"
-          mylink={`${"Web Development"}`}
-        />
-        <FooterItem
-          title="Android Development"
-          mylink={`${"Android Development"}`}
-        />
-        <FooterItem title="IOS Development" mylink={`${"IOS Development"}`} />
+        {services.map((service, index) => {
+          return (
+            <FooterItem
+              title={service.service}
+              firstelement={index=== 0 ? 'smothing':null}
+              mylink={`${service.service}`}
+            />
+          );
+        })}
       </div>
       <div className="footer__div">
         <Heading title="Follow Us" myclass="footer__heading" />

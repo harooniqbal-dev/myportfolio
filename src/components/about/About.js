@@ -13,8 +13,9 @@ import { statements, teammember } from "../../utils";
 
 import image1 from "../../images/Haroon Iqbal.jpg";
 import image2 from "../../images/mybanner.jpg";
-import image3 from "../../images/3.jpg";
-import image4 from "../../images/4.jpg";
+// import image3 from "../../images/3.jpg";
+import image4 from "../../images/yaseen.jpg";
+import image5 from "../../images/Sana.jpg";
 
 //end import Team member image link
 
@@ -55,9 +56,9 @@ export const TeamMember = ({
         {/* start Team Member image */}
         {memberid === 1 && <img src={image1} className="teammember__image" />}
         {memberid === 2 && <img src={image2} className="teammember__image" />}
-        {memberid === 3 && <img src={image3} className="teammember__image" />}
-        {memberid === 4 && <img src={image4} className="teammember__image" />}
-        {memberid === 5 && <img src={image2} className="teammember__image" />}
+        {memberid === 3 && <img src={image4} className="teammember__image" />}
+        {/* {memberid === 4 && <img src={image4} className="teammember__image" />} */}
+        {memberid === 5 && <img src={image5} className="teammember__image" />}
 
         {/* end Team Member image */}
             

@@ -18,36 +18,15 @@ const SocialLink = ({link}) => {
   return (
     <div className="sociallink">
 
-      <SocialItem
-        Icon={FacebookIcon}
-
-        // facebook social Link
-        link="https://web.facebook.com/haroon.iqbal.5811877/"
-        // social Link
-
-        myclass={{ fontSize: "40px", marginRight: "20px" }}
-      ></SocialItem>
-      
-      <SocialItem
-        Icon={LinkedInIcon}
-        // linkdin Social Link
-        link="https://web.facebook.com/haroon.iqbal.5811877/"
-
-        myclass={{ fontSize: "40px", marginRight: "20px" }}
-      ></SocialItem>
+     
       <SocialItem
         Icon={InstagramIcon}
         
         // instagram Social Link
-        link="https://web.facebook.com/haroon.iqbal.5811877/"
+        link="https://www.instagram.com/brightspire_/?igshid=1b4s1wunb8rvc"
         myclass={{ fontSize: "40px", marginRight: "20px" }}
       ></SocialItem>
-      <SocialItem
-        Icon={TwitterIcon}
-        // twitter social link
-        link="https://web.facebook.com/haroon.iqbal.5811877/"
-        myclass={{ fontSize: "40px", marginRight: "20px" }}
-      ></SocialItem>
+      
     </div>
   );
 };

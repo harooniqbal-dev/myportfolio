@@ -3,7 +3,9 @@ import "./Service.css";
 import WebIcon from "@material-ui/icons/Web";
 import AppleIcon from "@material-ui/icons/Apple";
 import AndroidIcon from "@material-ui/icons/Android";
+import BusinessIcon from '@material-ui/icons/Business';
 import { useHistory } from "react-router-dom";
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 const Service = ({
   heading,
   description,
@@ -44,6 +46,18 @@ const Service = ({
             )}
             {serviceid === 3 && (
               <AppleIcon
+                style={{ fontSize: "70px" }}
+                className="service__icon"
+              />
+            )}
+            {serviceid === 4 && (
+              <BusinessCenterIcon
+                style={{ fontSize: "70px" }}
+                className="service__icon"
+              />
+            )}
+            {serviceid === 5 && (
+              <BusinessIcon
                 style={{ fontSize: "70px" }}
                 className="service__icon"
               />

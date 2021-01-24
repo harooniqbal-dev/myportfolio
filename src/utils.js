@@ -36,6 +36,37 @@ const services = [
     longdescription:
       "Why only to restrict yourself on websites only? We are there in your shoes to provide best mobile applications. We develope mobile apps for multiple platforms like ios, android and windows OS as per requirements. Through mobile app development, we ensure our customers for their brand growth and attract more and more customers",
   },
+  {
+    id: 4,
+    service: "Business Development",
+    imageurl:'https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_1280.jpg',
+    shortdescription:
+      "Brightspire aims to strike your business moderate, cost effective and digitally conceptualized with perfect growing success",
+    longdescription:
+      "Brightspire aims to strike your business moderate, cost effective and digitally conceptualized with perfect growing success. Business development is essential today, especially when technology is spreading in business realm. To be successful, it is essential to apply all modes of innovative technologies in the development of technical infrastructure.",
+    descriptionpoint: [
+        "Process map",
+        "Design the process",
+        "Implement the changes",
+        "Data analytics ",
+        "Production capacity",
+      ], 
+    },
+
+  {
+    id: 5,
+    service: "Marketing",
+    imageurl:'https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_1280.jpg',
+    shortdescription:
+      "We help businesses like you discover your growth opportunities. Our growth hacking company enjoys the trust of fast startups.",
+    longdescription:
+      "We help businesses like you discover your growth opportunities. Our growth hacking company enjoys the trust of fast growing startups and major global brands. We make you smarter.",
+    descriptionpoint: [
+        "Growth marketing ",
+        "Social media marketing ",
+        "SEO and SEM",
+      ], 
+    },
 ];
 
 const budget = [
@@ -71,13 +102,13 @@ const statements = [
     id: 1,
     heading: "Our Mission",
     statement:
-      "Bright Spire is young emerging IT agency in Lahore, Pakistan. We emphasize in collaboration to emerging technologies and creativity. New aspiring ideas and techniques will swell your business. We use responsive software development techniques, latest web development tools and open sources in providing the best solutions. Our goal is to leave no stone unturned satisfying the customer to the fullest. Right from the beginning, we stand in your shoes to provide the best digital solutions. Bright Spire aims to bu ild and win your trust to the best of abilities to achieve excellence.",
+      "BrightSpire is young emerging IT agency in Lahore, Pakistan. We emphasize in collaboration to emerging technologies and creativity. New aspiring ideas and techniques will swell your business. We use responsive software development techniques, latest web development tools and open sources in providing the best solutions. Our goal is to leave no stone unturned satisfying the customer to the fullest. Right from the beginning, we stand in your shoes to provide the best digital solutions. Bright Spire aims to build and win your trust to the best of abilities to achieve excellence.",
   },
   {
     id: 2,
     heading: "Our Vision",
     statement:
-      "Bright Spire aims to develop in a constant manner and grow as a major IT service provider to become a leading performer, in providing quality Web and Software Development solutions in the competitive global marketplace. Young professionals, flexible and integrated process reflects in what we do. It is our first priority to guide our customers to success.",
+      "BrightSpire aims to develop in a constant manner and grow as a major IT service provider to become a leading performer, in providing quality Web and Software Development solutions in the competitive global marketplace. Young professionals, flexible and integrated process reflects in what we do. It is our first priority to guide our customers to success.",
   },
 ];
 
@@ -90,23 +121,23 @@ const teammember = [
   {
     id: 2,
     name: "Shahzaib Awan",
-    skills: "Web Developer",
+    skills: "Business Analyst",
   },
   {
     id: 3,
     name: "Yaseen Iqbal",
-    skills: "Web Developer",
+    skills: "Android and IOS developer",
   },
-  {
-    id: 4,
-    name: "Jhanzaib Awan",
-    skills: "Web Developer",
-    image: "../../images/1.jpg",
-  },
+  // {
+  //   id: 4,
+  //   name: "Jhanzaib Awan",
+  //   skills: "Web Developer",
+  //   image: "../../images/1.jpg",
+  // },
   {
     id: 5,
     name: "Sana Arif",
-    skills: "Web Developer",
+    skills: "Graphic Designer",
   },
 ];
 

@@ -10,7 +10,7 @@ import { GetInTouch } from "../contact/Contact";
 import image1 from "../../images/cgss.PNG";
 import image2 from "../../images/covid.png";
 import image3 from "../../images/netflix.png";
-import image4 from "../../images/4.jpg";
+
 export const SubHeading = ({ title, myclass }) => {
   return <p className={myclass}>{title}</p>;
 };
@@ -49,10 +49,7 @@ const Home = () => {
         <div className="home__Portfolio__content__inner">
           <Service projectimage={image1} projecturl={'http://cgss.edu.pk/'} />
           <Service projectimage={image2} projecturl={'https://covid-tracer-619ec.web.app/'} />
-          <Service projectimage={image3} projecturl={'https://netflix-b2c74.web.app/'}/>
-          {/* <Service projectimage={image4} />
-          <Service projectimage={image3} />
-          <Service projectimage={image4} /> */}
+        
         </div>
       </section>
 

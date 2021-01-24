@@ -11,21 +11,24 @@ const ContactInfo = ({ iconcolor }) => {
       <ContactItem
         Icon={PhoneIcon}
         title="Phone Number"
-        description="+923478167467"
+        description="+923368141304"
         iconcolor={iconcolor}
       />
       <ContactItem
         Icon={PersonIcon}
+        title="Name"
         description="BrightSpire"
         iconcolor={iconcolor}
       />
       <ContactItem
         Icon={EmailIcon}
-        description="harooniqbal584@gmail.com"
+        title="Email"
+        description="management@brightspire.online"
         iconcolor={iconcolor}
       />
       <ContactItem
         Icon={LocationOnIcon}
+        title="Address"
         description="Lahore"
         iconcolor={iconcolor}
       />
